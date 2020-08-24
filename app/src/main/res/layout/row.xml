@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_task"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/Delete"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingTop="15dp"
+        android:text="Hello"
+        android:textAlignment="viewStart"
+        android:textColor="#352121"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/Delete"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/but"
+        android:onClick="deleteTask"
+        android:text="Delete" />
+</RelativeLayout>
